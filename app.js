@@ -45,8 +45,8 @@ passport.deserializeUser((user, done) => {
 passport.use(
   new FacebookStrategy(
     {
-      clientID: "659589435270070",
-      clientSecret: "121fed38dc677434a4fb0cb145eefb1a",
+      clientID: "******",
+      clientSecret: "******",
       callbackURL:
         "https://1484-2405-4802-6072-f8d0-282e-1fd4-f99-a0c0.ngrok.io/auth/facebook/callback",
       profileFields: ["id", "displayName", "photos", "email"],
